@@ -35,8 +35,8 @@ public class SecondActivity extends Activity {
         recyclerView.setLayoutManager(mLayoutManager);
 
         List<TemperatureData> items =
-                Arrays.asList(new TemperatureData("Hamburg", "5"), new TemperatureData("Berlin", "6"),new TemperatureData("Berlin", "6"),
-                        new TemperatureData("Gurgaon", "6"),new TemperatureData("Kanpur", "6-"));
+                Arrays.asList(new TemperatureData("Hamburg", "5"), new TemperatureData("Berlin", "6"),new TemperatureData("Delhi", "6"),
+                        new TemperatureData("Gurgaon", "35"),new TemperatureData("Kanpur", "30"));
 
         // define an adapter
         mAdapter = new MyAdapter(items);
